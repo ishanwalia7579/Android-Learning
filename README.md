@@ -1,2 +1,59 @@
-# Andriod-App-Project
-#Andriod #Java#Kotlin #Project
+<h1 align="center">📱 Android App Projects</h1>
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="50" alt="android logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="50" alt="java logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="50" alt="kotlin logo" />
+</p>
+
+<p align="center">
+  🚀 Daily uploads of Android apps built using Java/Kotlin & Android Studio. <br/>
+  ✨ Beginner to Advanced – All in one place!
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Android-Java%20%7C%20Kotlin-green?style=for-the-badge&logo=android" />
+  <img src="https://img.shields.io/github/repo-size/ishanwalia7579/Android-App-Projects?style=for-the-badge" />
+  <img src="https://img.shields.io/github/last-commit/ishanwalia7579/Android-App-Projects?style=for-the-badge" />
+</p>
+
+---
+
+## 🗂️ Projects Uploaded
+
+| 📱 Project Name | 🔗 Link |
+|------------------|--------|
+|  | [View](./DiceRoller) |
+| | [View](./CalculatorApp) |
+|  | [View](./TodoApp) |
+|  | ... | ... |
+
+---
+
+## 🛠️ Tech Stack
+
+- 💻 Android Studio
+- ☕ Java & Kotlin
+- 🎨 XML UI / Jetpack Compose
+- 🧪 Unit Testing & Debugging
+
+---
+
+## 📸 Screenshots
+
+| Project | Screenshot |
+|--------|------------|
+|  | <img src="./DiceRoller/screenshot.png" width="200"/> |
+|  | <img src="./CalculatorApp/screenshot.png" width="200"/> |
+
+---
+
+## ✍️ Author
+
+- 👨‍💻 [Ishan Walia](https://github.com/ishanwalia7579)
+- 📫 Connect on [LinkedIn](https://www.linkedin.com/in/ishanwalia/) or follow on [GitHub](https://github.com/ishanwalia7579)
+
+---
+
+> ⚡ *"Practice makes perfect! Keep building, keep learning."*
+
