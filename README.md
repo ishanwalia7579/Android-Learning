@@ -47,6 +47,22 @@
 |  | <img src="./CalculatorApp/screenshot.png" width="200"/> |
 
 ---
+---
+
+## 📘 Android Development Notes
+
+Learn Android step-by-step with beginner-friendly notes!  
+All notes are written in simple language with examples, diagrams, and real project structure.
+
+| 📄 Topic | 📥 Read Now |
+|---------|-------------|
+| Introduction to Android & Android Studio | [View Notes](./Notes/Introduction.md) |
+| Coming Soon: Your First App | 🚧 In Progress |
+| Coming Soon: Activities & Intents | 🚧 In Progress |
+
+> 📝 All notes are updated regularly. Keep checking this repo for new learning material.
+
+---
 
 ## ✍️ Author
 
