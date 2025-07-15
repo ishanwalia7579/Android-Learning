@@ -58,6 +58,15 @@ These libraries help Android apps use complex features easily.
 
 ### 4. Basic Structure of an Android App
 
+```markdown
+📁 java/kotlin
+📁 res/layout/
+📁 res/drawable/
+📁 res/values/
+📄 AndroidManifest.xml
+📄 build.gradle
+
+```
 <ul><b>1. java/ or kotlin/ folder</b><ul>
 <li>Stores your app’s source code files.</li>
 <li>Contains all Activities, Fragments, and business logic.</li>
@@ -106,3 +115,14 @@ These libraries help Android apps use complex features easily.
 <li>Helps to build and run the app properly.</li>
 </ul>
 </ul>
+
+```Conclusion
+Android App Development is one of the most in-demand skills in today's digital world. With the help of Android Studio, Java/Kotlin,
+and a solid understanding of Android's architecture, you can start building real apps that solve real problems.
+
+📱 Whether you're just beginning or aiming to become a pro, this guide is your first step toward creating powerful mobile apps.
+
+🔥 Keep Learning. Keep Building.
+🧠 The more you code, the better you become.
+👨‍💻 Made with 💙 by Ishan Walia
+```
