@@ -1,3 +1,22 @@
+# 📱 Android App Development - Introduction Notes
+
+Welcome to the beginner-friendly guide to **Android App Development**!  
+If you're new to mobile development or just starting your coding journey, this guide will help you understand the **core concepts of Android**, its **architecture**, and how to get started using **Android Studio** with **Java or Kotlin**.
+
+Whether you’re a student, hobbyist, or aspiring app developer — this note is the first step toward building your own Android apps. 🚀
+
+---
+
+## 📌 Topics Covered
+
+- ✅ What is Android?
+- ✅ How Android Works (Architecture)
+- ✅ Installing Android Studio
+- ✅ Basic Android Project Structure
+- ✅ Ending Tips & Motivation
+
+---
+
 ### 1. What is Android ?
 Android is a mobile operating system developed by Google, based on the Linux kernel, designed mainly for touchscreen devices like smartphones and tablets.
 It provides a user-friendly interface and supports millions of mobile apps available through the Google Play Store.
