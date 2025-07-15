@@ -45,8 +45,7 @@ You will see Hello World! in the centre of the screen.</li>
 
 ### 🖼️ Screenshot
 App Screen
-<img src="docs/screenshot.png" width="250" alt="Hello World Screenshot"/>
-
+<img src="Screenshot 2025-07-15 232104.png" width="950" alt="Hello World Screenshot" aiign="center"/>
 ## 🛠️ Tech Stack
 
 | 🧰 Tool            | 💡 Use                    |
