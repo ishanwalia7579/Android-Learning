@@ -57,8 +57,8 @@ All notes are written in simple language with examples, diagrams, and real proje
 | 📄 Topic | 📥 Read Now |
 |---------|-------------|
 | Introduction to Android & Android Studio | [View Notes](https://github.com/ishanwalia7579/Android-App-Project/blob/main/Notes/Introduction%20.md) |
-| Coming Soon: Your First App | 🚧 In Progress |
-| Coming Soon: Activities & Intents | 🚧 In Progress |
+| Color in Android | [View Notes](https://github.com/ishanwalia7579/Android-App-Project/blob/main/Notes/Introduction%20.md) |
+| Activities & Lifecycle | [View Notes](https://github.com/ishanwalia7579/Android-App-Project/blob/main/Notes/Introduction%20.md) |
 
 > 📝 All notes are updated regularly. Keep checking this repo for new learning material.
 
