@@ -72,5 +72,5 @@ cd Android-App-Project/Coding-Quizzes
 
 📸 Screenshots
 <img src="quizees.png">
-<img src="1quizees.png">
+<img src="quizees1.png">
 Made with ❤️ by @ishanwalia7579
