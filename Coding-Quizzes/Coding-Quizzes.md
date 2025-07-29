@@ -71,6 +71,6 @@ cd Android-App-Project/Coding-Quizzes
 4.Add explanations for answers
 
 📸 Screenshots
-<img src="">
-<img src="">
+<img src="quizees.png">
+<img src="1quizees.png">
 Made with ❤️ by @ishanwalia7579
