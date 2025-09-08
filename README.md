@@ -23,8 +23,8 @@
 
 | 📱 Project Name | 🔗 Link |
 |------------------|--------|
-| Login-Signup |[View](./https://github.com/ishanwalia7579/Android-Login-Signup) |
-| Weather-App | [View](./https://github.com/ishanwalia7579/Android-Weather-App) |
+| Login-Signup |[View](https://github.com/ishanwalia7579/Android-Login-Signup) |
+| Weather-App | [View](https://github.com/ishanwalia7579/Android-Weather-App) |
 |  | ... | ... |
 
 ---
