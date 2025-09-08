@@ -23,9 +23,8 @@
 
 | 📱 Project Name | 🔗 Link |
 |------------------|--------|
-|  | [View](./DiceRoller) |
-| | [View](./CalculatorApp) |
-|  | [View](./TodoApp) |
+| Login-Signup |[View](./https://github.com/ishanwalia7579/Android-Login-Signup) |
+| Weather-App | [View](./https://github.com/ishanwalia7579/Android-Weather-App) |
 |  | ... | ... |
 
 ---
