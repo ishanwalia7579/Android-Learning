@@ -25,7 +25,7 @@
 |------------------|--------|
 | Login-Signup |[View](https://github.com/ishanwalia7579/Android-Login-Signup) |
 | Weather-App | [View](https://github.com/ishanwalia7579/Android-Weather-App) |
-|  | ... | ... |
+| Walia Auto Electricals | [View](https://github.com/ishanwalia7579/Android-Weather-App)
 
 ---
 
