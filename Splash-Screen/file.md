@@ -67,11 +67,95 @@ Use it when:
 
 ## ✅ 8. What Should a Good Splash Screen Include?
 
-✔ App Logo  
-✔ App Name / Tagline  
-✔ Optional animation or loader  
-✔ Simple and clean design  
-✔ Short display duration
+<li> App Logo</li>  
+<li>App Name / Tagline</li>  
+<li>Optional animation or loader </li> 
+<li>Simple and clean design </li> 
+<li>Short display duration</li>
 
 ---
 
+##  ✅ 9. Code Example
+
+###  `activity_splash.xml`
+```xml
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_app_logo"
+        android:contentDescription="App Logo" />
+
+    <TextView
+        android:id="@+id/tvTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Welcome to My App!"
+        android:textSize="16sp" />
+</RelativeLayout>
+```
+###  `SplashActivity.kt`
+```kt
+package com.example.myapp
+
+import android.content.Intent
+import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import androidx.appcompat.app.AppCompatActivity
+
+class SplashActivity : AppCompatActivity() {
+
+    private val SPLASH_TIME: Long = 2000 // 2 seconds
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_splash)
+
+        supportActionBar?.hide() 
+
+        Handler(Looper.getMainLooper()).postDelayed({
+            startActivity(Intent(this, MainActivity::class.java))
+            finish()
+        }, SPLASH_TIME)
+    }
+}
+```
+
+### ✅ MainActivity.kt
+```kt
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+    }
+}
+```
+
+### ✅ AndroidManifest.xml
+```xml
+<application
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+    <activity
+        android:name=".SplashActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name=".MainActivity" />
+</application>
+```
