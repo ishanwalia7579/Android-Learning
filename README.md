@@ -58,6 +58,7 @@ All notes are written in simple language with examples, diagrams, and real proje
 | Introduction to Android & Android Studio | [View Notes](https://github.com/ishanwalia7579/Android-App-Project/blob/main/Notes/Introduction%20.md) |
 | Color in Android | [View Notes](https://github.com/ishanwalia7579/Android-App-Project/blob/main/Notes/Color.md) |
 | Activities & Lifecycle | [View Notes](https://github.com/ishanwalia7579/Android-App-Project/blob/main/Notes/Activities%20and%20Lifecycle.md) |
+| Splash Screen| [View Notes]() |
 
 > 📝 All notes are updated regularly. Keep checking this repo for new learning material.
 
