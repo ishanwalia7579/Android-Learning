@@ -8,16 +8,16 @@ It usually displays the **app logo, name, or an animation** for a few seconds be
 
 ## ✅ 2. Why is a Splash Screen Used?
 
-### ✔ 1. Branding  
+###  1. Branding  
 Shows the app’s **logo, name, and identity** to create a strong first impression.
 
-### ✔ 2. Hides Loading Time  
+###  2. Hides Loading Time  
 Covers the time while the app **loads resources, data, or initializes components**.
 
-### ✔ 3. Improves User Experience  
+###  3. Improves User Experience  
 Prevents **blank screens or lag** and provides a smooth opening.
 
-### ✔ 4. Professional Presentation  
+###  4. Professional Presentation  
 Gives the app a **clean, polished, and premium look**.
 
 ---
