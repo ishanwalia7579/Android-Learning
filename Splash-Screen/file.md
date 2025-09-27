@@ -159,3 +159,7 @@ class MainActivity : AppCompatActivity() {
     <activity android:name=".MainActivity" />
 </application>
 ```
+# ✅ Screenshot
+
+Here is how the Splash Screen looks in the app:
+<img src="Splash-Screen-Examples-01.png" align="center">
