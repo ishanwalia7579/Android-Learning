@@ -99,3 +99,6 @@ class MainActivity : AppCompatActivity()
     }
 }
 ```
+## ScreenShot
+<img src="Toggle1.png">
+<img  src="Toggle2.png">
