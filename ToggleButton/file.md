@@ -100,5 +100,4 @@ class MainActivity : AppCompatActivity()
 }
 ```
 ## ScreenShot
-<img src="Toggle1.png">
-<img  src="Toggle2.png">
+<img src="Toggle1.png" height="620px"><img  src="Toggle2.png" height="620px">
