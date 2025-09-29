@@ -133,4 +133,4 @@ class MainActivity : AppCompatActivity() {
 }
 ```
 ## Output:
-<img src="Button_1.png" height="520px"> &nbsp; &nbsp;<img src="Button_2.png" height="520px">
+<img src="Button_1.png" height="620px"> &nbsp; &nbsp;<img src="Button_2.png" height="620px">
