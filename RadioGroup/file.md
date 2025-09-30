@@ -171,3 +171,5 @@ class MainActivity : AppCompatActivity() {
     }
 }
 ```
+# Output
+<img src="Radio_Group.png"><img src="Radio_Group2.png">
