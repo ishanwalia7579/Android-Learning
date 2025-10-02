@@ -104,3 +104,17 @@ We can use android:timePickerMode to choose which the mode for the TimePicker. T
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 <img src="TimePicke.png">
+
+# Step 3: Access the TimePicker in MainActivity.kt file
+First of all, we declare two variables textView and timePicker to access the widgets from the XML layout using their id's.
+```
+val textView = findViewById(R.id.textView)
+val timePicker = findViewById(R.id.timePicker)
+```
+
+Then, we set the setOnTimeChangedListener(), to detect when the time is changed
+```
+timePicker.setOnTimeChangedListener { view, hourOfDay, minute ->
+    // your code here
+}
+```
