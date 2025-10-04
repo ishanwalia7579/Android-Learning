@@ -42,7 +42,8 @@ Web-Kit This open source web browser engine provides all the functionality to di
 SSL (Secure Sockets Layer) is security technology to establish an encrypted link between a web server and a web browser.
 Window Manager - Handles the placement and appearance of windows on the screen.
 Content Providers - Help apps share data with other apps (like contacts or photos).
-View System - Controls how things (like buttons or text) appear on the scree
+View System - Controls how things (like buttons or text) appear on the scree.
+
 <img src="Platform_libraries.jpg">
 
 # 5. Linux Kernel
@@ -54,7 +55,7 @@ Process Management: It manages the process well, allocates resources to processe
 Network Stack: It effectively handles the network communication.
 Driver Model: It ensures that the application works properly on the device and hardware manufacturers responsible for building their drivers into the Linux build.
 
-<img src="Linux_kernel.jpg">
+<img src="Linux_Kernal.jpg">
 
 Other Commonly Used Architectures in Android
 There are few commonly used Android Architectures used mentioned below:
