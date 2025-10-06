@@ -33,9 +33,18 @@ This feature mainly includes backend services that help developers to build and 
 
 # Improve app quality:
 Here majorly all the application performance and testing features are provided. All the features required to check and manage before launching your application officially are provided in this section. Services included are:
-<ol>
-<li>Crashlytics: It is used to get real-time crash reports. These reports can further be used to improve the quality of the application. The most interesting part of this service is that it gives a detailed description of the crash which is easier to analyze for the developers.</li>
+<ul>
+<li><b>Crashlytics:</b> It is used to get real-time crash reports. These reports can further be used to improve the quality of the application. The most interesting part of this service is that it gives a detailed description of the crash which is easier to analyze for the developers.</li>
 <li><b>Performance monitoring: </b>This service gives an insight to the performance characteristics of the applications. The performance monitoring SDK can be used to receive performance data from the application, review them, and make changes to the application accordingly through the Firebase console.</li>
-<li><b>Test lab: This service helps to test your applications on real and virtual devices provided by Google which are hosted on the Google Datacenters. It is a cloud-based app-testing infrastructure which supports testing the application on a wide variety of devices and device configurations</b></li>
+<li><b>Test lab:</b> This service helps to test your applications on real and virtual devices provided by Google which are hosted on the Google Datacenters. It is a cloud-based app-testing infrastructure which supports testing the application on a wide variety of devices and device configurations</li>
 <li><b>App Distribution:This service is used to pre-release applications that can be tested by trusted testers. It comes in handy as decreases the time required to receive feedback from the testers.</b></li>
+</ul>
 
+# Grow your app:
+This feature provides your application analytics and features that can help you to interact with your user and make predictions that help you to grow your app. Services provided are:
+
+<ul>
+<li><b>Google analytics:</b> It is a Free app measurement service provided by Google that provides insight on app usage and user engagement. It serves unlimited reporting for up to 500 distinct automatic or user-defined events using the Firebase SDK.</li>
+<li><b>Predictions:</b> Firebase Predictions uses machine learning to the application's analytics data, further creating dynamic user segments that are based on your user's behavior. These are automatically available to use for the application through Firebase Remote Config, the Notifications composer, Firebase In-App Messaging, and A/B Testing.</li>
+<li><b>Dynamic Links: </b>Deeps Links are links that directly redirects user to specific content. Firebase provides a Dynamic linking service that converts deep links into dynamic links which can directly take the user to a specified content inside the application. Dynamic links are used for converting web users to Native app users. It also increases the conversion of user-to-user sharing. In addition, it can also be used to integrate social media networks, emails, and SMS to increase user engagement inside the application.</li>
+<li><b>A/B Testing: </b>It is used to optimize the application's experience by making it run smoothly, scaling the product, and performing marketing experiments.</li>
