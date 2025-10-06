@@ -48,3 +48,39 @@ This feature provides your application analytics and features that can help you 
 <li><b>Predictions:</b> Firebase Predictions uses machine learning to the application's analytics data, further creating dynamic user segments that are based on your user's behavior. These are automatically available to use for the application through Firebase Remote Config, the Notifications composer, Firebase In-App Messaging, and A/B Testing.</li>
 <li><b>Dynamic Links: </b>Deeps Links are links that directly redirects user to specific content. Firebase provides a Dynamic linking service that converts deep links into dynamic links which can directly take the user to a specified content inside the application. Dynamic links are used for converting web users to Native app users. It also increases the conversion of user-to-user sharing. In addition, it can also be used to integrate social media networks, emails, and SMS to increase user engagement inside the application.</li>
 <li><b>A/B Testing: </b>It is used to optimize the application's experience by making it run smoothly, scaling the product, and performing marketing experiments.</li>
+
+# Pros and Cons of Using Firebase:
+Below listed are the advantages and disadvantages of using a Firebase backend:
+
+# Pros:
+<ul>
+<li>Firebase provides a simple and developer-friendly interface, making it easy to integrate into apps without backend expertise.</li>
+<li>Firebase offers real-time data synchronization, making it ideal for chat apps, multiplayer games, and collaborative tools.</li>
+<li>Works seamlessly on Android, iOS, web, and Unity, enabling multi-platform app development.</li>
+<li>Provides secure authentication via Google, Facebook, Twitter, email/password, and phone authentication without extra coding.</li>
+<li>Google Cloud infrastructure ensures Firebase scales automatically based on user demand.</li>
+<li>Serverless backend execution allows running custom logic without managing servers.</li>
+<li>The Spark Plan (free tier) offers generous limits for small projects.</li>
+<li>Firebase provides secure cloud storage and fast web hosting with built-in SSL.</li>
+<li>Offers real-time crash reporting and detailed user analytics for better app performance and insights.</li>
+</ul>
+
+# Cons:
+<ul>
+<li>Firebase uses Firestore (NoSQL), which lacks complex query support like SQL databases, making it challenging for relational data handling.</li>
+<li>The free tier is great for small apps, but costs can escalate quickly as data storage, reads/writes, and users increase.</li>
+<li>Firebase is a Google product, so migrating to another backend can be complex if you need to switch later.</li>
+<li>While Cloud Functions offer flexibility, Firebase doesn’t provide full control over server-side logic compared to traditional backends.</li>
+<li>Firebase security rules require careful management, and improper setup can lead to data leaks or unauthorized access.</li>
+<li>Although Firestore supports offline mode, its functionality may not always be as reliable as traditional databases.</li>
+<li>Queries in Firestore are limited (e.g., no full-text search or advanced filtering like SQL).</li>
+<li>Since Firebase is deeply integrated with Google Cloud, any service downtime can impact your app.</li>
+</ul>
+
+# Companies using Firebase
+Below are some reputable organizations that rely on a firebase backend for its functioning:
+The New York Times, Alibaba.com, Gameloft, Duolingo, Trivago, Venmo, Lyft.
+
+# Pricing:
+There are 2 plans available. Spark plan is initially free but as your user base grows you might need to upgrade to blaze plan. Firebase asks you to pay as you go. For most developers who are just getting started and are on a learning path, they are covered by spark plan.
+
