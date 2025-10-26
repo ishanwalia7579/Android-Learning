@@ -23,11 +23,7 @@ The app uses the `ACTION_IMAGE_CAPTURE` Intent of the `MediaStore` class and `Fi
 ---
 
 ## 🎬 Watch Demo Video
-<p align="center">
-  <a href="https://youtu.be/xFbWtEuvujk?si=-6wh9cD5HjPKSTe8" target="_blank">
-  </a>
-</p>
-
+[![Watch the Video](https://youtu.be/xFbWtEuvujk?si=-6wh9cD5HjPKSTe8)
 ## Prerequisites
 
 - Android Studio installed  
