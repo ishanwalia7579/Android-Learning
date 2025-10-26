@@ -68,8 +68,123 @@ dependencies {
     <cache-path name="images" path="images/" />
 </paths>
 ```
+<li>activity_main.xml:</li>
 
+```kt
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Camera Button -->
+    <Button
+        android:id="@+id/camera_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Camera"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <!-- ImageView for Captured Image -->
+    <ImageView
+        android:id="@+id/click_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/camera_open"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
+<li>MainActivity.kt</li>
+
+```kt
+import android.content.Intent
+import android.net.Uri
+import android.os.Bundle
+import android.provider.MediaStore
+import android.widget.Button
+import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.FileProvider
+import com.bumptech.glide.Glide
+import java.io.File
+
+class MainActivity : AppCompatActivity() {
+
+    // Declare UI elements
+    private lateinit var openCamera: Button
+    private lateinit var clickedImage: ImageView
+
+    // Variables to hold the file and its Uri
+    private lateinit var photoFile: File
+    private lateinit var photoUri: Uri
+
+    // Unique request code for identifying the camera intent result
+    private val CAMERA_REQUEST_CODE = 1001
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        openCamera = findViewById(R.id.camera_open)
+        clickedImage = findViewById(R.id.click_image)
+
+        openCamera.setOnClickListener {
+            // Create a temporary image file to store the captured photo
+            photoFile = createImageFile()
+
+            // Get a content URI for the file using FileProvider
+            // This allows secure sharing of the file with the camera app
+            photoUri = FileProvider.getUriForFile(
+                this,
+                "${packageName}.fileprovider", // FileProvider authority (defined in manifest)
+                photoFile
+            )
+
+            // Create an intent to launch the camera app
+            val cameraIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE).apply {
+                // Tell the camera app where to save the image
+                putExtra(MediaStore.EXTRA_OUTPUT, photoUri)
+                // Grant temporary write permission to the camera app for the URI
+                addFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION)
+            }
+
+            // Start the camera app and wait for the result
+            startActivityForResult(cameraIntent, CAMERA_REQUEST_CODE)
+        }
+    }
+
+    // Function to create a temporary image file in the cache directory
+    private fun createImageFile(): File {
+        // Create a directory inside cache to store images (if not already created)
+        val imageDir = File(cacheDir, "images").apply { mkdirs() }
+        // Create a temp file with prefix "captured_" and suffix ".jpg"
+        return File.createTempFile("captured_", ".jpg", imageDir)
+    }
+
+    // Deprecated but still usable for handling activity results (like camera)
+    @Deprecated("Deprecated in Java")
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+
+        // Check if the result is from the camera and was successful
+        if (requestCode == CAMERA_REQUEST_CODE && resultCode == RESULT_OK) {
+            // Load the captured image from the URI into the ImageView using Glide
+            Glide.with(this).load(photoUri).into(clickedImage)
+        }
+    }
+}
+```
 <li>Run the app on a device or emulator with a camera</li>
+
 </ol>
 
 ##  Usage
