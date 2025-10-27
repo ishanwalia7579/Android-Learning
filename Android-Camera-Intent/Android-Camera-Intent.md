@@ -18,7 +18,8 @@ The app uses the `ACTION_IMAGE_CAPTURE` Intent of the `MediaStore` class and `Fi
 
 ## Screenshots
 
-![App Screenshot](screenshot.png) <!-- Replace with your actual screenshot -->
+![App Screenshot]
+<img src="Screenshot 2025-10-26 185408.png"><!-- Replace with your actual screenshot -->
 
 ---
 
