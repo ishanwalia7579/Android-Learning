@@ -42,8 +42,8 @@
 
 | Project | Screenshot |
 |--------|------------|
-|  | <img src="./DiceRoller/screenshot.png" width="200"/> |
-|  | <img src="./CalculatorApp/screenshot.png" width="200"/> |
+| Microsoft CMT App | <img src="./DiceRoller/screenshot.png" width="200"/> |
+| Bhakti Sangeet App | <img src="./CalculatorApp/screenshot.png" width="200"/> |
 
 ---
 ---
